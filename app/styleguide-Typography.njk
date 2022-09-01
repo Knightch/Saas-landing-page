@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/dist/assets/style/style.css">
-    <title>Manggon - Financial Advisor Website</title>
-</head>
-
-<body>
+{% set page_class = typography %}
+{% extends "./app/partials/template.njk" %}
+{% block main %}
     <section #styleGuide class="style-guide mb-lg-5">
         <div class="container-fluid header bg-light">
             <div class="container p-5 ">
@@ -121,8 +112,4 @@
             </div>
         </div>
     </section>
-    <!-- main js -->
-    <script src="/dist/assets/js/main.js"></script>
-</body>
-
-</html>
+{% endblock %}
