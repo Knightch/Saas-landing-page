@@ -1,0 +1,22 @@
+@import 'custom';
+@import 'fontAwesome';
+
+// import components
+@import '../scss/components/mixins';
+@import '../scss/components/typography';
+@import '../scss/components/buttons';
+@import '../scss/components/common';
+@import '../scss/components/animation';
+
+// imports pages
+@import '../scss/pages/404';
+@import '../scss/pages/aboutUs';
+@import '../scss/pages/awards';
+@import '../scss/pages/blog';
+@import '../scss/pages/contactUs';
+@import '../scss/pages/home';
+@import '../scss/pages/portfolio';
+@import '../scss/pages/pricing';
+@import '../scss/pages/service';
+@import '../scss/pages/singlePost';
+@import '../scss/pages/team';

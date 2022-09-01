@@ -2,10 +2,6 @@
   "name": "manggon-financial_advisor_website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Knightch/Manggon-Financial-Advisor-website.git"
@@ -32,19 +28,21 @@
   },
   "devDependencies": {
     "browser-sync": "^2.27.10",
-    "del": "^7.0.0",
+    "del": "^3.0.0",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-beautify-code": "^2.0.4",
+    "gulp-cache": "^1.1.3",
     "gulp-changed": "^4.0.3",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-copy": "^4.0.1",
     "gulp-count": "^1.0.0",
+    "gulp-cssnano": "^2.1.3",
     "gulp-csso": "^4.0.1",
     "gulp-data": "^1.3.1",
     "gulp-filter": "^7.0.0",
     "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-line-ending-corrector": "^1.0.3",
     "gulp-notify": "^4.0.0",
     "gulp-nunjucks": "^5.1.0",
@@ -57,6 +55,7 @@
     "gulp-string-replace": "^1.1.2",
     "gulp-uglify": "^3.0.2",
     "minimist": "^1.2.6",
-    "nunjucks": "^3.2.3"
+    "nunjucks": "^3.2.3",
+    "sass": "^1.54.8"
   }
 }

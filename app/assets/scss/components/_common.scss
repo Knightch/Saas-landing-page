@@ -1,0 +1,21 @@
+.border-line {
+  height: 1px;
+  width: 640px;
+  background-color: #000;
+}
+
+.color-box {
+  height: 120px;
+  width: 400px;
+  border: 1px solid;
+}
+
+.disbable-text-bg{
+    background-color: $disable-text-color;
+}
+.body-text-bg{
+    background-color: $body-text-color;
+}
+.title-bg{
+    background-color: $title-color;
+}

@@ -1,0 +1,47 @@
+// theme color
+$primary_green: #27463e;
+$primary_gold: #c69679;
+$secondary_lightGold: #dbd4b8;
+
+// typography color
+$title-color: #1b1b1c;
+$body-text-color: #1b1b1c;
+$disable-text-color: #cbcbcd;
+
+// bg color
+$background-light: #f8f8f8;
+
+// white and gray colors
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$primary: $primary_green;
+$secondary: $primary_gold;
+$success: $secondary_lightGold;
+
+//heading font size
+$h1-font-size: 4rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
+// body font size
+$font-size-sm: 0.75rem;
+$font-size-lg: 2rem;
+
+// base font
+$font-family-base: "Inter", sans-serif;
+
+// import bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
