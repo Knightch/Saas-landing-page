@@ -1,5 +1,80 @@
 {% set page_class = contactUs %}
 {% extends "./app/partials/template.njk" %}
 {% block main %}
+<!-- start header -->
+{% include "./app/partials/_header.njk"%}
+<!-- end header -->
+
+<!-- start hero section -->
+<section id="hero" class="hero text-center container section-margin">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-12">
+            <h1 class="fw-bold">Contact Us</h1>
+            <p class="text-muted w-auto text-center m-auto mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor
+                incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim</p>
+        </div>
+        <div class="col-12">
+            <div class="hero-img mt-5">
+                <img src="/dist/assets/images/png/contactUs/contact-img.png" alt="hero img" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end hero section -->
+
+<!-- start address section -->
+<section id="addres" class="address container section-margin">
+    <div class="row mt-5">
+        <div class="col-lg-6 col-md-8 col-12">
+            <h2 class="fw-bold">Raya Yogyakarta Street
+                2408, Indonesia</h2>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-lg-4 col-md-7 col-12">
+            <p class="text-muted">Email</p>
+            <h3 class="fw-bold mt-3">manggon@email.com</h3>
+        </div>
+        <div class="col-lg-4 col-md-5 col-12">
+            <p class="text-muted">Phone</p>
+            <h3 class="fw-bold mt-3">(+62) 8989 7878</h3>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <p class="text-muted">Phone</p>
+            <h3 class="fw-bold mt-3">(+62) 8989 5656</h3>
+        </div>
+    </div>
+</section>
+<!-- end address section -->
+
+<!-- start contact form section -->
+<section id="contact-form" class="contact-form container section-margin">
+    <div class="row">
+        <div class="col-lg-5 col-12">
+            <h2 class="fw-bold">Dont be shy, Just tell us about yourself and we’ll figure out the best option for you
+                and your project.</h2>
+        </div>
+        <div class="col-lg-5 offset-lg-2 mt-5 mt-lg-1 col-12">
+            <div class="mb-4">
+                <input type="name" class="form-control border-0 border-bottom border-dark  rounded-0 pb-4" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+                <input type="email" class="form-control border-0 border-bottom border-dark  rounded-0 pb-4" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+                <label for="exampleFormControlTextarea1" class="form-label ps-3 text-muted">Your Message</label>
+                <textarea class="form-control border-0 border-bottom border-dark  rounded-0 pb-4" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn-outline-dark rounded-0 p-3 mt-5 " type="submit">Send</button>
+        </div>
+    </div>
+</section>
+<!-- end contact form section -->
+
+<!-- start header -->
+{% include "./app/partials/_footer.njk"%}
+<!-- end header -->
 
 {% endblock %}
