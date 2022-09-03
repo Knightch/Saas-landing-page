@@ -1,5 +1,84 @@
 {% set page_class = portfolio %}
 {% extends "./app/partials/template.njk" %}
 {% block main %}
+<!-- start header -->
+{% include "./app/partials/_header.njk"%}
+<!-- end header -->
 
+<!-- start hero section -->
+<section id="hero" class="hero text-center container section-margin">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-12">
+            <h1 class="fw-bold">Portfolio</h1>
+            <p class="text-muted w-auto text-center m-auto mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor
+                incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim</p>
+        </div>
+        <div class="col-12">
+            <div class="hero-img mt-5">
+                <img src="/dist/assets/images/png/home/hero-img.png" alt="hero img" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end hero section -->
+
+<!-- start commom interest section -->
+<section id="common-interest" class="commom-interest container section-margin">
+    <div class="row mt-5">
+        <div class="col-lg-5 col-12">
+            <h2 class="fw-bold">Working With Experts Who Have Common Interest</h2>
+        </div>
+        <div class="col-lg-5 col-12 mt-5 mt-lg-1 offset-lg-2">
+            <div class="row">
+                <div class="col-6">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim</p>
+                </div>
+                <div class="col-6">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-lg-6 col-12">
+            <div class="img-box p-2">
+                <img src="/dist/assets/images/png/portfolio/img-left-1.png" alt="img left 1" class="img-fluid">
+            </div>
+            <div class="img-box p-2">
+                <img src="/dist/assets/images/png/portfolio/img-left-2.png" alt="img left 2" class="img-fluid">
+            </div>
+            <div class="img-box p-2">
+                <img src="/dist/assets/images/png/portfolio/img-left-3.png" alt="img left 3" class="img-fluid">
+            </div>
+            <div class="img-box p-2">
+                <img src="/dist/assets/images/png/portfolio/img-left-4.png" alt="img left 4" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-lg-6 col-12 text-end">
+            <div class="img-box p-2">
+                <img src="/dist/assets/images/png/portfolio/img-right-1.png" alt="img right 1" class="img-fluid">
+            </div>
+            <div class="img-box p-2">
+                <img src="/dist/assets/images/png/portfolio/img-right-2.png" alt="img right 2" class="img-fluid">
+            </div>
+            <div class="img-box p-2">
+                <img src="/dist/assets/images/png/portfolio/img-right-3.png" alt="img right 3" class="img-fluid">
+            </div>
+            <div class="img-box p-2">
+                <img src="/dist/assets/images/png/portfolio/img-right-4.png" alt="img right 4" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end commom interest section -->
+
+<!-- start footer -->
+{% include "./app/partials/_footer.njk"%}
+<!-- end footer -->
 {% endblock %}
