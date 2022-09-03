@@ -28,7 +28,12 @@ h6,
 .sm-text {
   font-size: $font-size-sm;
 }
-.lg-text{
-    font-size: $font-size-lg;
+.lg-text {
+  font-size: $font-size-lg;
 }
-
+.body-text {
+  color: $body-text-color;
+}
+a {
+  text-decoration: none;
+}

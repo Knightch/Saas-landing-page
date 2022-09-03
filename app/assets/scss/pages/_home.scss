@@ -1,0 +1,11 @@
+.home-work-btn {
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+    right: 30.5rem;
+  }
+}
+.m-left {
+  @include media-breakpoint-up(lg) {
+    margin-left: 9.5rem;
+  }
+}
