@@ -20,8 +20,17 @@
   background-color: $title-color;
 }
 .section-margin {
-  margin-top: 150px !important;
+  margin-top: 80px !important;
+  @include media-breakpoint-up(lg) {
+    margin-top: 150px !important;
+  }
 }
-.margin-bottom{
+.margin-bottom {
   margin-bottom: 200px !important;
+}
+.mrgin-btn-column {
+  margin-top: 40px !important;
+  @include media-breakpoint-up(lg) {
+    margin-top: 80px !important;
+  }
 }
