@@ -9,3 +9,16 @@
     margin-left: 9.5rem;
   }
 }
+
+.home-service-card {
+  @include media-breakpoint-down(md) {
+    margin: auto;
+    width: 384px;
+  }
+}
+.horizontal-scroll {
+  @include media-breakpoint-down(md) {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+}

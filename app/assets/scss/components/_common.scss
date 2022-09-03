@@ -10,12 +10,18 @@
   border: 1px solid;
 }
 
-.disbable-text-bg{
-    background-color: $disable-text-color;
+.disbable-text-bg {
+  background-color: $disable-text-color;
 }
-.body-text-bg{
-    background-color: $body-text-color;
+.body-text-bg {
+  background-color: $body-text-color;
 }
-.title-bg{
-    background-color: $title-color;
+.title-bg {
+  background-color: $title-color;
+}
+.section-margin {
+  margin-top: 150px !important;
+}
+.margin-bottom{
+  margin-bottom: 200px !important;
 }
