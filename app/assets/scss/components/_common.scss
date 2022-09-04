@@ -34,3 +34,16 @@
     margin-top: 80px !important;
   }
 }
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  li {
+    color: #5f5f63;
+    i {
+      color: #20c3a7;
+    }
+  }
+}

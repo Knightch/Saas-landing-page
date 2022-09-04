@@ -1,0 +1,9 @@
+.pricing-header {
+  &:hover {
+    background: $primary_gold;
+    color: $white !important;
+    p {
+      color: $white !important;
+    }
+  }
+}
