@@ -1,3 +1,119 @@
 {% set page_class = team %}
 {% extends "./app/partials/template.njk" %}
-{% block main %}{% endblock %}
+{% block main %}
+    <!-- start header -->
+    {% include "./app/partials/_header.njk"%}
+    <!-- end header -->
+
+    <!-- start hero section -->
+    <section id="hero" class="hero text-center container section-margin">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-12">
+                <h1 class="fw-bold">Our Team</h1>
+                <p class="text-muted w-auto text-center m-auto mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor
+                incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim</p>
+            </div>
+            <div class="col-12">
+                <div class="hero-img mt-5">
+                    <img src="/dist/assets/images/png/home/hero-img.png" alt="hero img" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- start creative person section -->
+    <section class="service container section-margin" id="service">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-6 col-lg-12 text-lg-center text-start align-self-center">
+                        <h2 class="fw-bold">Creative Person</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 mt-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-12">
+                        <img src="/dist/assets/images/png/aboutus/creative-person.png" alt="profile-card"
+                        class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-12 mt-4 mt-lg-1">
+                        <img src="/dist/assets/images/png/aboutus/creative-person.png" alt="profile-card"
+                        class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-12 mt-4 mt-lg-1">
+                        <img src="/dist/assets/images/png/aboutus/creative-person.png" alt="profile-card"
+                        class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-12 mt-4 mt-lg-1">
+                        <img src="/dist/assets/images/png/aboutus/creative-person.png" alt="profile-card"
+                        class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 mt-3">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-12">
+                        <img src="/dist/assets/images/png/aboutus/creative-person.png" alt="profile-card"
+                        class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-12 mt-4 mt-lg-1">
+                        <img src="/dist/assets/images/png/aboutus/creative-person.png" alt="profile-card"
+                        class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-12 mt-4 mt-lg-1">
+                        <img src="/dist/assets/images/png/aboutus/creative-person.png" alt="profile-card"
+                        class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 col-12 mt-4 mt-lg-1">
+                        <img src="/dist/assets/images/png/aboutus/creative-person.png" alt="profile-card"
+                        class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end creative person section -->
+
+    <!-- start why us section -->
+    <section class="whyus container section-margin" id="whyus">
+        <div class="row">
+            <div class="col-lg-6 col-12 d-lg-block d-none">
+                <img src="/dist/assets/images/png/aboutus/why-us-img.png" alt="why us img" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12">
+                <h2 class="fw-bold">Why Choose Us</h2>
+                <div class="row mrgin-btn-column">
+                    <div class="col-6 p-4">
+                        <h3 class="fw-bold">We Create Solutions</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt.</p>
+                    </div>
+                    <div class="col-6 p-4">
+                        <h3 class="fw-bold">We Create Solutions</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt.</p>
+                    </div>
+                    <div class="col-6 p-4">
+                        <h3 class="fw-bold">We Create Solutions</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt.</p>
+                    </div>
+                    <div class="col-6 p-4">
+                        <h3 class="fw-bold">We Create Solutions</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end why us section -->
+
+    <!-- start footer -->
+    {% include "./app/partials/_footer.njk"%}
+    <!-- end footer -->
+{% endblock %}
