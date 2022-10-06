@@ -1,9 +1,4 @@
-// heading typography
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&display=swap");
-// body typography
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
-// hero section typography
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 h1,
 h2,
@@ -17,23 +12,5 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Alegreya", serif;
-}
-
-.hero-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-}
-
-.sm-text {
-  font-size: $font-size-sm;
-}
-.lg-text {
-  font-size: $font-size-lg;
-}
-.body-text {
-  color: $body-text-color;
-}
-a {
-  text-decoration: none;
+  font-family: 'Inter', sans-serif;
 }
