@@ -2,21 +2,265 @@
 {% extends "./app/partials/template.njk" %}
 {% block main %}
 <!-- start header -->
-{% include "./app/partials/_header.njk"%}
+<!-- {% include "./app/partials/_header.njk"%} -->
 <!-- end header -->
 
 <!-- start hero section -->
-
+<section class="container-fluid hero-section section-top-bottom-padding " id="hero-section">
+    <div class="container-xl hero-bg text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10 col-12">
+                <h1 class="text-white">Grow your users. Smarter.</h1>
+                <p class="text-white opacity-75">Powerful, self-serve product and growth analytics to help you convert,
+                    engage, and retain
+                    more users. Trusted
+                    by over 4,000 startups.</p>
+            </div>
+        </div>
+        <form class="row g-3 mt-4 justify-content-center mb-5">
+            <div class="col-auto">
+                <input type="email" class="form-control border-1 border-primary rounded-1 p-2 mobile-view-input"
+                    placeholder="Enter your email">
+            </div>
+            <div class="col-auto d-lg-block d-none">
+                <button type="submit" class="btn btn-primary mb-3 ps-3 pe-3">Get started</button>
+            </div>
+            <div class="col-lg-12 mt-0 text-start text-md-center">
+                <span class="sm-text opacity-75 text-white ps-2">We care about your data in our <a
+                        class="sm-text opacity-75 text-white text-decoration-underline link" href="">privacy
+                        policy</a></span>
+            </div>
+            <div class="col-auto d-lg-none d-block">
+                <button type="submit" class="btn btn-primary mb-3 mobile-btn">Get started</button>
+            </div>
+        </form>
+        <div class="row justify-content-center position-relative">
+            <img src="/dist/assets/images/png/home/img-1.png" alt="hero-img-1"
+                class="img-fluid hero-img position-absolute d-none d-md-block">
+            <img src="/dist/assets/images/png/home/img-4.png" alt="hero-img-1"
+                class="img-fluid hero-img position-absolute d-block d-md-none">
+        </div>
+    </div>
+</section>
 <!-- end hero section -->
 
 <!-- start working section -->
+<section class="container-fluid work-section" id="work-section">
+    <div class="container-fluid bg-secondary section-top-bottom-padding">
+        <div class="row gy-5 justify-content-center">
+            <div class="col-lg-3 col-md-6 col-12 text-center">
+                <div class="title-icon mb-2">
+                    <img src="/dist/assets/images/svg/home/featured-icon-1.svg" alt="icon-1">
+                </div>
+                <p class="work-title mb-1">Share team inboxes</p>
+                <p class="text-primary">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on
+                    the same page and in the loop.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center">
+                <div class="title-icon mb-2">
+                    <img src="/dist/assets/images/svg/home/featured-icon-2.svg" alt="icon-1">
+                </div>
+                <p class="work-title mb-1">Deliver instant answers</p>
+                <p class="text-primary">An all-in-one customer service platform that helps you balance everything your
+                    customers need to be happy.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center">
+                <div class="title-icon mb-2">
+                    <img src="/dist/assets/images/svg/home/featured-icon-3.svg" alt="icon-1">
+                </div>
+                <p class="work-title mb-1">Manage your team with reports</p>
+                <p class="text-primary">Measure what matters with Untitled’s easy-to-use reports. You can filter,
+                    export, and drilldown on the data in a couple clicks.</p>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- end working section -->
 
-<!-- start service section -->
-<!-- end service section -->
-
-<!-- start quote section -->
-<!-- end quote section -->
+<!-- start tool section -->
+<section class="container-fluid section-top-bottom-padding">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-6 col-12">
+                <div class="title-btn bg-secondary">
+                    <p class="text-primary sm-text p-2">Integrations</p>
+                </div>
+                <h3 class="fw-bold mb-2">Get more value from your tools</h3>
+                <p class="text-muted">Connect your tools, connect your teams. With over 100 apps already available in
+                    our directory,
+                    your team’s favourite tools are just a click away.</p>
+            </div>
+        </div>
+        <div class="row justify-content-cneter gy-4 gx-4 tool-container">
+            <!-- 1st tool -->
+            <div class="col-lg-4 col-12 col-md-6 text-center">
+                <div class="tool-logo">
+                    <img src="/dist/assets/images/svg/home/notion.svg" alt="notion">
+                </div>
+                <div class="tool-name">
+                    <p class="fw-bold">Notion integration</p>
+                </div>
+                <div class="tool-details">
+                    <p class="md-text text-muted">Work faster and smarter by integrating directly with Notion, right in
+                        the app.
+                    </p>
+                </div>
+                <div class="tool-button">
+                    <p class="md-text text-primary">View integration <i class="bi bi-arrow-right text-primary ps-3"></i>
+                    </p>
+                </div>
+            </div>
+            <!-- 2nd tool -->
+            <div class="col-lg-4 col-12 col-md-6 text-center">
+                <div class="tool-logo">
+                    <img src="/dist/assets/images/svg/home/slack.svg" alt="slack">
+                </div>
+                <div class="tool-name">
+                    <p class="fw-bold">Slack integration</p>
+                </div>
+                <div class="tool-details">
+                    <p class="md-text text-muted">Work faster and smarter by integrating directly with Slack, right in
+                        the app.
+                    </p>
+                </div>
+                <div class="tool-button">
+                    <p class="md-text text-primary">View integration <i class="bi bi-arrow-right text-primary ps-3"></i>
+                    </p>
+                </div>
+            </div>
+            <!-- 3rd tool -->
+            <div class="col-lg-4 col-12 col-md-6 text-center">
+                <div class="tool-logo">
+                    <img src="/dist/assets/images/svg/home/google_drive.svg" alt="Google Drive">
+                </div>
+                <div class="tool-name">
+                    <p class="fw-bold">Google Drive integration</p>
+                </div>
+                <div class="tool-details">
+                    <p class="md-text text-muted">Work faster and smarter by integrating directly with Google Drive,
+                        right in
+                        the app.
+                    </p>
+                </div>
+                <div class="tool-button">
+                    <p class="md-text text-primary">View integration <i class="bi bi-arrow-right text-primary ps-3"></i>
+                    </p>
+                </div>
+            </div>
+            <!-- 4th tool -->
+            <div class="col-lg-4 col-12 col-md-6 text-center">
+                <div class="tool-logo">
+                    <img src="/dist/assets/images/svg/home/intercom.svg" alt="Intercom">
+                </div>
+                <div class="tool-name">
+                    <p class="fw-bold">Intercom integration</p>
+                </div>
+                <div class="tool-details">
+                    <p class="md-text text-muted">Work faster and smarter by integrating directly with Intercom, right
+                        in
+                        the app.
+                    </p>
+                </div>
+                <div class="tool-button">
+                    <p class="md-text text-primary">View integration <i class="bi bi-arrow-right text-primary ps-3"></i>
+                    </p>
+                </div>
+            </div>
+            <!-- 5th tool -->
+            <div class="col-lg-4 col-12 col-md-6 text-center">
+                <div class="tool-logo">
+                    <img src="/dist/assets/images/svg/home/jira.svg" alt="Jira">
+                </div>
+                <div class="tool-name">
+                    <p class="fw-bold">Jira integration integration</p>
+                </div>
+                <div class="tool-details">
+                    <p class="md-text text-muted">Work faster and smarter by integrating directly with Jira, right in
+                        the app.
+                    </p>
+                </div>
+                <div class="tool-button">
+                    <p class="md-text text-primary">View integration <i class="bi bi-arrow-right text-primary ps-3"></i>
+                    </p>
+                </div>
+            </div>
+            <!-- 6th tool -->
+            <div class="col-lg-4 col-12 col-md-6 text-center">
+                <div class="tool-logo">
+                    <img src="/dist/assets/images/svg/home/dropbox.svg" alt="Dropbox">
+                </div>
+                <div class="tool-name">
+                    <p class="fw-bold">Dropbox integration</p>
+                </div>
+                <div class="tool-details">
+                    <p class="md-text text-muted">Work faster and smarter by integrating directly with Dropbox, right in
+                        the app.
+                    </p>
+                </div>
+                <div class="tool-button">
+                    <p class="md-text text-primary">View integration <i class="bi bi-arrow-right text-primary ps-3"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end tool section -->
+<div class="container">
+    <hr>
+</div>
+<!-- start data section -->
+<section class="container-fluid section-top-bottom-padding">
+    <div class="container">
+        <!-- for mobile -->
+        <div class="row justify-content-center gx-4 d-lg-none bg-secondary d-block rounded-4 p-4">
+            <div class="col-12 text-center">
+                <h3 class="fw-bold mb-3">Unleash the full power of data</h3>
+                <p class="text-primary">Everything you need to convert, engage, and retain more users.</p>
+            </div>
+            <div class="col-lg-10 col-12 mt-4 rounded-2 bg-secondary text-center ">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-12">
+                        <h1 class="display-2 fw-bold text-primary">40+</h1>
+                        <p class="mdd-text text-primary">Integrations</p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <h1 class="display-2 fw-bold text-primary">600%</h1>
+                        <p class="mdd-text text-primary">Return on investment</p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <h1 class="display-2 fw-bold text-primary">4k+</h1>
+                        <p class="mdd-text text-primary">Global customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- for desktop -->
+        <div class="row justify-content-center mt-3 p-3 d-lg-block d-none">
+            <div class="col-12 text-center">
+                <h3 class="fw-bold mb-3">Unleash the full power of data</h3>
+                <p class="text-muted">Everything you need to convert, engage, and retain more users.</p>
+            </div>
+            <div class="col-lg-10 col-12 rounded-4 bg-secondary text-center m-auto mt-5 p-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-12">
+                        <h1 class="display-2 fw-bold text-primary">40+</h1>
+                        <p class="mdd-text text-primary">Integrations</p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <h1 class="display-2 fw-bold text-primary">600%</h1>
+                        <p class="mdd-text text-primary">Return on investment</p>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <h1 class="display-2 fw-bold text-primary">4k+</h1>
+                        <p class="mdd-text text-primary">Global customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end data section -->
 
 <!-- start awwwards section -->
 <!-- end awwwards section -->

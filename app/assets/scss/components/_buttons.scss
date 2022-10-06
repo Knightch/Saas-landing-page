@@ -1,0 +1,12 @@
+.mobile-btn {
+  height: 48px;
+  width: 343px;
+  border-radius: 8px;
+}
+.mobile-view-input {
+  @include media-breakpoint-down(lg) {
+    height: 48px;
+    width: 343px;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,20 @@
+.section-top-bottom-padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  @include media-breakpoint-up(lg) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+.link {
+  cursor: pointer !important;
+}
+.sm-text {
+  //styleName: Text sm/Medium;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
