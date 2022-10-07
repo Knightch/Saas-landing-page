@@ -2,11 +2,11 @@
 {% extends "./app/partials/template.njk" %}
 {% block main %}
 <!-- start header -->
-<!-- {% include "./app/partials/_header.njk"%} -->
+{% include "./app/partials/_header.njk"%}
 <!-- end header -->
 
 <!-- start hero section -->
-<section class="container-fluid hero-section section-top-bottom-padding " id="hero-section">
+<section class="container-fluid hero-section hero-section-top-bottom-padding " id="hero-section">
     <div class="container-xl hero-bg text-center">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10 col-12">
@@ -262,11 +262,387 @@
 </section>
 <!-- end data section -->
 
-<!-- start awwwards section -->
-<!-- end awwwards section -->
+<!-- start features section -->
+<section class="container-fluid section-top-bottom-padding">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8 col-12">
+                <div class="title-btn bg-secondary">
+                    <p class="text-primary sm-text p-2">Features</p>
+                </div>
+                <h3 class="fw-bold mt-4 mb-4">Cutting-edge features for advanced analytics</h3>
+                <p class="text-muted">Powerful, self-serve product and growth analytics to help you convert, engage, and
+                    retain more users. Trusted by over 4,000 startups.</p>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <!-- for desktop and tab img -->
+            <img src="/dist/assets/images/png/home/img-2.png" alt="feature" class="img-fluid d-md-block d-none mt-5">
+            <img src="/dist/assets/images/png/home/img-3.png" alt="" class="img-fluid d-block d-md-none mt-3">
+        </div>
+        <div class="row gy-5 gx-5 justify-content-center features-details mt-md-0 mt-5">
+            <div class="col-lg-4 col-md-6 col-12 text-center">
+                <div class="title-icon mb-2">
+                    <img src="/dist/assets/images/svg/home/featured-icon-1.svg" alt="icon-1">
+                </div>
+                <p class="work-title mb-1">Share team inboxes</p>
+                <p class="text-muted">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the
+                    same page and in the loop.</p>
+                <div class="work-button">
+                    <p class="md-text text-primary">Learn more <i class="bi bi-arrow-right text-primary ps-3"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 text-center">
+                <div class="title-icon mb-2">
+                    <img src="/dist/assets/images/svg/home/featured-icon-2.svg" alt="icon-1">
+                </div>
+                <p class="work-title mb-1">Deliver instant answers</p>
+                <p class="text-muted">An all-in-one customer service platform that helps you balance everything your
+                    customers need to be happy.</p>
+                <div class="tool-button">
+                    <p class="md-text text-primary">Learn more <i class="bi bi-arrow-right text-primary ps-3"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 text-center">
+                <div class="title-icon mb-2">
+                    <img src="/dist/assets/images/svg/home/featured-icon-3.svg" alt="icon-1">
+                </div>
+                <p class="work-title mb-1">Manage your team with reports</p>
+                <p class="text-muted">Measure what matters with Untitled’s easy-to-use reports. You can filter,
+                    export, and drilldown on the data in a couple clicks.</p>
+                <div class="tool-button">
+                    <p class="md-text text-primary">Learn more <i class="bi bi-arrow-right text-primary ps-3"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end features section -->
+<div class="container">
+    <hr>
+</div>
+<!-- start pricing section -->
+<section class="container-fluid section-top-bottom-padding pricing-section" id="pricing-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-12 text-center">
+                <p class="md-text text-primary">Pricing</p>
+                <h3 class="fw-bold">Plans that fit your scale</h3>
+                <p class="text-muted mt-3">Simple, transparent pricing that grows with you. Try any plan free for 30
+                    days.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-cneter mt-5 gy-5">
+            <div class="col-lg-6 col-12">
+                <div class="card price-card">
+                    <div class="card-header bg-white pt-4 pb-4">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 col-12">
+                                <h4 class="fw-bold">Business plan</h4>
+                                <p class="md-text text-muted">Advanced features and reporting.</p>
+                            </div>
+                            <div class="col-md-5 col-12 text-md-end">
+                                <h1 class="fw-bold"><sup class="fw-bold .h3">$</sup>20 <sub
+                                        class="text-muted md-text ms-0 ">per month</sub></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body pt-4 pb-4">
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="md-text fw-bold text-uppercase mb-0">FEATURES</p>
+                                <p class="text-muted md-text mt-0">Everything in our free plan plus....</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-12">
+                                <ul style="list-style-type: none;">
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i></i> A200+
+                                        integrations</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Advanced
+                                        reporting</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Up to 20
+                                        individual users</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> 40GB individual
+                                        data</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Priority chat
+                                        support</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <ul style="list-style-type: none;">
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Advanced custom
+                                        fields
+                                    </li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Audit log and
+                                        data history</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Backup your
+                                        account</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> APersonalised
+                                        service</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> + many more...
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center bg-white pt-4 pb-4">
+                        <button class="btn btn-primary card-btn">Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="card price-card">
+                    <div class="card-header bg-white pt-4 pb-4">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 col-12">
+                                <h4 class="fw-bold">Basic plan</h4>
+                                <p class="md-text text-muted">Our most popular plan for small teams.</p>
+                            </div>
+                            <div class="col-md-5 col-12 text-md-end">
+                                <h1 class="fw-bold"><sup class="fw-bold .h3">$</sup>10 <sub
+                                        class="text-muted md-text ms-0 ">per month</sub></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body pt-4 pb-4">
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="md-text fw-bold text-uppercase mb-0">FEATURES</p>
+                                <p class="text-muted md-text mt-0">Everything in our free plan plus....</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-12">
+                                <ul style="list-style-type: none;">
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i></i> Access to
+                                        basic features</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Basic reporting
+                                        + analytics</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Up to 10
+                                        individual users</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> 20GB individual
+                                        data</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Basic chat
+                                        support</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <ul style="list-style-type: none;">
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Attend events
+                                    </li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Automatic
+                                        updates</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Backup your
+                                        account</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Audit log and
+                                        notes</li>
+                                    <li class="text-muted md-text mb-2"><i
+                                            class="bi bi-check2-circle bg-danger text-success me-2"></i> Feature
+                                        requests</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center bg-white pt-4 pb-4">
+                        <button class="btn btn-primary card-btn">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end pricing section -->
 
-<!-- start client section -->
-<!-- end client section -->
+<!-- start faq section -->
+<section class="container-fluid section-top-bottom-padding faq" id="faq">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-12 text-center">
+                <h3 class="fw-bold">Frequently asked questions</h3>
+                <p class="text-muted mt-3">Everything you need to know about the product and billing.</p>
+            </div>
+            <div class="col-lg-8 col-12 mt-md-5">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <!-- 1st item -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="true"
+                                aria-controls="flush-collapseOne">
+                                <p class="mdd-text fw-bold"> Is there a free trial available?</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="text-muted md-text">Yes, you can try us for free for 30 days. If you want,
+                                    we’ll
+                                    provide you with a free, personalized 30-minute onboarding call to get you up and
+                                    running as soon as possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd item -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <p class="mdd-text fw-bold">Can I change my plan later?</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="text-muted md-text">Yes, you can try us for free for 30 days. If you want,
+                                    we’ll
+                                    provide you with a free, personalized 30-minute onboarding call to get you up and
+                                    running as soon as possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3rd item -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                                <p class="mdd-text fw-bold">What is your cancellation policy?</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="text-muted md-text">Yes, you can try us for free for 30 days. If you want,
+                                    we’ll
+                                    provide you with a free, personalized 30-minute onboarding call to get you up and
+                                    running as soon as possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4th item -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                <p class="mdd-text fw-bold">Can other info be added to an invoice?</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="text-muted md-text">Yes, you can try us for free for 30 days. If you want,
+                                    we’ll
+                                    provide you with a free, personalized 30-minute onboarding call to get you up and
+                                    running as soon as possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5th item -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                <p class="mdd-text fw-bold">How does billing work?</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="text-muted md-text">Yes, you can try us for free for 30 days. If you want,
+                                    we’ll
+                                    provide you with a free, personalized 30-minute onboarding call to get you up and
+                                    running as soon as possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6th item -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                <p class="mdd-text fw-bold">How do I change my account email?</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="text-muted md-text">Yes, you can try us for free for 30 days. If you want,
+                                    we’ll
+                                    provide you with a free, personalized 30-minute onboarding call to get you up and
+                                    running as soon as possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 justify-content-center bg-light rounded-5">
+            <div class="col-md-10 col-12 p-5 text-center">
+                <img src="/dist/assets/images/png/home/avatarGroup.png" alt="avatar" class="img-fluid">
+                <p class="fw-bold mt-4">Still have questions?</p>
+                <p class="text-muted mdd-text">Can’t find the answer you’re looking for? Please chat to our friendly
+                    team.</p>
+                <button class="btn btn-primary mt-4 rounded-2">Get in touch</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end faq section -->
+
+<!-- start partner section -->
+<section class="container-fluid section-top-bottom-padding partners d-md-block d-none" id="partners">
+    <div class="container">
+        <div class="row justify-content-center bg-light rounded-5 p-5">
+            <div class="col-md-10 text-center">
+                <p class="text-muted">Trusted by 4,000+ companies</p>
+            </div>
+            <div class="col-md-12 mt-3">
+                <div class="row gap-5 justify-content-center">
+                    <div class="col-lg-2 col-3">
+                        <img src="/dist/assets/images/svg/home/company-1.svg" alt="company-1">
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <img src="/dist/assets/images/svg/home/company-2.svg" alt="company-1">
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <img src="/dist/assets/images/svg/home/company-3.svg" alt="company-1">
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <img src="/dist/assets/images/svg/home/company-4.svg" alt="company-1">
+                    </div>
+                    <div class="col-lg-2 col-3">
+                        <img src="/dist/assets/images/svg/home/company-5.svg" alt="company-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end partner section -->
 
 <!-- start footer -->
 {% include "./app/partials/_footer.njk"%}

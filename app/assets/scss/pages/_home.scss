@@ -50,3 +50,14 @@
     margin-top: 5rem;
   }
 }
+.features-details {
+  @include media-breakpoint-up(md) {
+    margin-top: -2rem !important;
+  }
+  @include media-breakpoint-up(lg) {
+    margin-top: -4rem !important;
+  }
+}
+ul {
+  padding-left: 0;
+}

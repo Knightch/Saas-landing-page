@@ -10,3 +10,24 @@
     border-radius: 8px;
   }
 }
+.card-btn {
+  @include media-breakpoint-up(md) {
+    height: 48px;
+    width: 528px;
+    border-radius: 8px;
+  }
+}
+.btn-purple {
+  height: 48px;
+  width: 128px;
+  border-radius: 8px;
+  background: #7f56d9;
+  color: #fff;
+}
+.btn-white {
+  height: 48px;
+  width: 128px;
+  border-radius: 8px;
+  background: #fff;
+  color: #000;
+}
